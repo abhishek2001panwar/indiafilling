@@ -161,12 +161,7 @@ function navbar() {
                 </div>
               ))}
               <hr className="border-slate-700 my-2" />
-              <button className="flex items-center gap-2 text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition hover:bg-slate-800/30 rounded w-full">
-                Refer & Earn 🎁
-              </button>
-              <button className="flex items-center gap-2 text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition hover:bg-slate-800/30 rounded w-full">
-                We're Hiring! 😊
-              </button>
+             
               <button className="w-full bg-white hover:bg-gray-100 text-slate-900 font-semibold py-2 px-4 rounded-full transition mt-4 text-sm">
                 Login
               </button>
