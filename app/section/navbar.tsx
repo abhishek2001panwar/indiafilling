@@ -79,7 +79,7 @@ function navbar() {
 
         {/* Mobile/Tablet/Laptop Menu - Visible on lg and below when clicked */}
         {isOpen && (
-          <div className="lg:block xl:hidden pb-4 border-t border-slate-700/50 bg-slate-900/50 backdrop-blur  overflow-y-auto">
+          <div className="lg:block xl:hidden pb-4 border-t border-slate-700/50 bg-slate-900/50 backdrop-blur m-5 overflow-y-auto">
             <div className="flex flex-col gap-1 p-2">
               {navItems.map((item, index) => (
                 <button
