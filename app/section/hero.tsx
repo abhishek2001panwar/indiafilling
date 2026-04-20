@@ -46,9 +46,59 @@ function Hero() {
 
         {/* Feature Cards - Responsive */}
         <div className="border-y border-slate-800">
+          <style>{`
+            .feature-fade {
+              position: relative;
+              overflow: hidden;
+            }
+
+            .feature-fade-mobile::before,
+            .feature-fade-mobile::after {
+              content: '';
+              position: absolute;
+              left: 0;
+              right: 0;
+              width: 100%;
+              z-index: 10;
+              pointer-events: none;
+            }
+
+            .feature-fade-mobile::before {
+              top: 0;
+              height: 40px;
+              background: linear-gradient(to bottom, rgba(15, 23, 42, 1) 0%, transparent 100%);
+            }
+
+            .feature-fade-mobile::after {
+              bottom: 0;
+              height: 40px;
+              background: linear-gradient(to top, rgba(15, 23, 42, 1) 0%, transparent 100%);
+            }
+
+            .feature-fade-desktop::before,
+            .feature-fade-desktop::after {
+              content: '';
+              position: absolute;
+              top: 0;
+              width: 100px;
+              height: 100%;
+              z-index: 10;
+              pointer-events: none;
+            }
+
+            .feature-fade-desktop::before {
+              left: 0;
+              background: linear-gradient(to right, rgba(15, 23, 42, 1) 0%, transparent 100%);
+            }
+
+            .feature-fade-desktop::after {
+              right: 0;
+              background: linear-gradient(to left, rgba(15, 23, 42, 1) 0%, transparent 100%);
+            }
+          `}</style>
           <div className="w-full ">
             {/* Mobile/Tablet Layout (Vertical Stack) */}
-            <div className="flex flex-col md:hidden">
+            <div className="flex flex-col md:hidden feature-fade feature-fade-mobile">
               {features.map((feature, index) => {
                 const Icon = feature.icon;
                 return (
@@ -74,7 +124,7 @@ function Hero() {
             </div>
 
             {/* Desktop Layout (Single Row) */}
-            <div className="hidden md:block border-y border-slate-700 ">
+            <div className="hidden md:block border-y border-slate-700 feature-fade feature-fade-desktop">
               <div className="w-full  flex items-center justify-center">
                 {features.map((feature, index) => {
                   const Icon = feature.icon;
