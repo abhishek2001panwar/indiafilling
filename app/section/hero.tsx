@@ -124,7 +124,7 @@ function Hero() {
             </div>
 
             {/* Desktop Layout (Single Row) */}
-            <div className="hidden md:block border-y border-slate-700 feature-fade feature-fade-desktop">
+            <div className="hidden md:block border-y border-px border-slate-800 feature-fade feature-fade-desktop">
               <div className="w-full  flex items-center justify-center">
                 {features.map((feature, index) => {
                   const Icon = feature.icon;
