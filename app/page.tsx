@@ -17,8 +17,8 @@ function page() {
       <Hero />
       <MeetJune />
       <Complete />
-      <Marque />
-      <Story/>
+      {/* <Marque /> */}
+      {/* <Story/> */}
       <Start />
       <AIPowered />
       <FAQ />

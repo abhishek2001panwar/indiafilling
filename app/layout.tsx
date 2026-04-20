@@ -14,8 +14,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "indiafilings - Simplified Business Compliance in India",
-  description: "IndiaFilings is your one-stop platform for hassle-free business compliance in India. From company registration to GST filing, income tax returns to trademark protection, we handle all your compliance needs in one place. Our AI-powered tools automate tasks, ensure accuracy and keep you compliant with ease. Start your business journey with us and experience seamless compliance management.",
+  title: "MRLLP",
+  description: "MRLLP is a leading business compliance service provider in India, offering expert solutions for company registration, GST filing, tax compliance, and more. We help businesses navigate the complex regulatory landscape with ease and confidence.",
 };
 
 export default function RootLayout({

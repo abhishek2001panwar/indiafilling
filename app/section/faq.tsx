@@ -2,28 +2,28 @@
 import React from 'react'
 
 function faq() {
-  const faqs = [
-    {
-      question: 'How can IndiaFillings help my business with GST registration and compliance?',
-      answer: 'IndiaFillings provides comprehensive GST registration services, ensuring your business complies with GST laws. From registration to timely returns filing and tax planning, we handle it all so you can focus on growing your business.',
-    },
-    {
-      question: 'What is AI-powered automation, and how can it benefit my business operations?',
-      answer: 'AI-powered automation reduces manual workload by automating routine tasks like payroll processing, GST filing, and employee attendance tracking. It boosts efficiency, minimizes errors, and ensures compliance with all regulatory requirements.',
-    },
-    {
-      question: 'How do I automate my business compliance processes with IndiaFillings?',
-      answer: 'IndiaFillings integrates AI-powered solutions to automate processes such as GST filing, payroll, and attendance tracking, ensuring compliance, saving time, and improving accuracy in your business operations.',
-    },
-    {
-      question: 'How does LEDGERS support compliance, registration and taxation for companies?',
-      answer: 'LEDGERS provides a unified software platform that covers regulatory compliance (including MCA filings for India), GST and income tax reporting, trademark registrations, startup company formations and other legal/financial obligations, enabling businesses to stay compliant across jurisdictions.',
-    },
-    {
-      question: 'How can I automate GST filings and tax compliance with your services?',
-      answer: 'Through a combination of LEDGERS automation tools and June AI agents, you can manage GST registrations, return filings, reconciliation and compliance in India, and apply comparable tax-automation workflows in the UAE and USA, minimizing manual effort and error-risk.',
-    },
-  ]
+const faqs = [
+  {
+    question: 'How can MRLLP help me start my business in India?',
+    answer: 'MRLLP provides end-to-end support for business registration, including Private Limited Company, LLP, and OPC. We handle documentation, approvals, and compliance so you can launch your business without hassle.',
+  },
+  {
+    question: 'Do you provide GST registration and return filing services?',
+    answer: 'Yes, we offer complete GST solutions including registration, return filing, reconciliation, and ongoing compliance to ensure your business meets all GST requirements.',
+  },
+  {
+    question: 'Can MRLLP handle my income tax filing and compliance?',
+    answer: 'Absolutely. Our experts manage income tax returns, tax planning, and compliance to help you stay legally compliant while optimizing your tax liabilities.',
+  },
+  {
+    question: 'What is included in MCA and ROC compliance services?',
+    answer: 'We take care of all MCA and ROC filings such as annual returns, board resolutions, and statutory compliance, ensuring your company stays compliant with government regulations.',
+  },
+  {
+    question: 'Do you offer trademark registration and brand protection?',
+    answer: 'Yes, we assist with trademark search, registration, and protection to safeguard your brand identity and intellectual property.',
+  },
+];
 
   return (
     <div className="bg-[#0F172A] py-20">

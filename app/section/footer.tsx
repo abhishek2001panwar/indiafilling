@@ -27,59 +27,66 @@ function footer() {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
           {/* Company Info */}
           <div>
-            <img src="/logo.avif" alt="IndiaFilings Logo" className="h-10 mb-4" />
-            <p className="text-gray-300 text-sm leading-relaxed">
-              India's Largest Digital Corporate Services Provider & Compliance Platform.
-            </p>
+            <img src="https://mrllp.in/assets/logo2-Dp2EGe7S.png" alt="MRLLP Logo" className="h-10 mb-6" />
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white font-semibold mb-2 text-sm">Head Office:</h4>
+                <p className="text-gray-300 text-sm leading-relaxed">
+                  B-296, Chhatarpur Enclave Ph-2, Delhi-74
+                </p>
+              </div>
+              <div>
+                <h4 className="text-white font-semibold mb-2 text-sm">Phone:</h4>
+                <p className="text-gray-300 text-sm">8130204500</p>
+                <p className="text-gray-300 text-sm">8130206300</p>
+              </div>
+              <div>
+                <h4 className="text-white font-semibold mb-2 text-sm">Email:</h4>
+                <p className="text-gray-300 text-sm">info@mrllp.in</p>
+              </div>
+            </div>
           </div>
 
-          {/* IndiaFillings */}
+          {/* Services */}
           <div>
-            <h4 className="text-white font-semibold mb-6">IndiaFillings</h4>
+            <h4 className="text-white font-semibold mb-6">Services</h4>
             <ul className="space-y-3">
               <li>
                 <a href="#" className="text-gray-300 hover:text-white text-sm transition">
-                  About IndiaFillings
+                  Udyam Registration
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-white text-sm transition">
-                  Learning Center
+                  Trust Registration
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-white text-sm transition">
-                  Contact Us
+                  GST Registration
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-300 hover:text-white text-sm transition">
+                  Section 8 Company
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-300 hover:text-white text-sm transition">
+                  Trademark Registration
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-300 hover:text-white text-sm transition">
+                  Private Limited Company
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Platforms */}
+          {/* Legal */}
           <div>
-            <h4 className="text-white font-semibold mb-6">Platforms</h4>
-            <ul className="space-y-3">
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white text-sm transition">
-                  Business Search
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white text-sm transition">
-                  Trademark Search
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white text-sm transition">
-                  Filings.AE for UAE
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Usage */}
-          <div>
-            <h4 className="text-white font-semibold mb-6">Usage</h4>
+            <h4 className="text-white font-semibold mb-6">Legal</h4>
             <ul className="space-y-3">
               <li>
                 <a href="#" className="text-gray-300 hover:text-white text-sm transition">
@@ -99,23 +106,50 @@ function footer() {
             </ul>
           </div>
 
-          {/* Legal */}
+          {/* Why Choose Us */}
           <div>
-            <h4 className="text-white font-semibold mb-6">Legal</h4>
+            <h4 className="text-white font-semibold mb-6">Why Choose Us</h4>
             <ul className="space-y-3">
               <li>
                 <a href="#" className="text-gray-300 hover:text-white text-sm transition">
-                  Confidentiality Policy
+                  Expertise & Trust
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-white text-sm transition">
-                  Disclaimer Policy
+                  Fast & Secure
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-white text-sm transition">
-                  IndiaFillings Review
+                  Affordable Pricing
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Useful Links */}
+          <div>
+            <h4 className="text-white font-semibold mb-6">Useful Links</h4>
+            <ul className="space-y-3">
+              <li>
+                <a href="#" className="text-gray-300 hover:text-white text-sm transition">
+                  FSSAI License
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-300 hover:text-white text-sm transition">
+                  Partnership Registration
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-300 hover:text-white text-sm transition">
+                  PF Registration
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-300 hover:text-white text-sm transition">
+                  LLP Registration
                 </a>
               </li>
             </ul>
@@ -128,7 +162,7 @@ function footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <p className="text-gray-400 text-sm">
-              © {currentYear} IndiaFillings. All rights reserved.
+              © {currentYear} MRLLP. All rights reserved.
             </p>
             <div className="flex gap-6">
               <a href="#" className="text-cyan-400 hover:text-cyan-300 transition text-sm font-medium">

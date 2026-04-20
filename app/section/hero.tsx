@@ -10,15 +10,14 @@ function Hero() {
   ];
 
   const clients = [
-    "DBS",
-    "ICICI",
-    "HDFC",
-    "Moneyview",
-    "Etmoney",
-    "Joyalukkas",
-    "Yes Bank",
-    "Flipkart",
-    "Cello",
+    { name: "Amrita", image: "https://mrllp.in/assets/amrita-DQhE57LT.png" },
+    { name: "BSAT", image: "https://mrllp.in/assets/BSAT-D87pSsAT.png" },
+    { name: "Coinlytx", image: "https://mrllp.in/assets/coinlytx-wERXXdmi.png" },
+    { name: "Eternal", image: "https://mrllp.in/assets/eternal-Fc4nobNf.png" },
+    { name: "Prompt Times", image: "https://mrllp.in/assets/Prompt-Times-BQZ5jP4q.jpg" },
+    { name: "Samrat", image: "https://mrllp.in/assets/samrat-0Tbvbxl6.png" },
+    { name: "Sanchay", image: "https://mrllp.in/assets/Sanchay-Ti9mlD10.jpg" },
+    { name: "TVF", image: "https://mrllp.in/assets/TVF-BFCdl9ti.jpg" },
   ];
 
   return (
@@ -27,20 +26,23 @@ function Hero() {
       <div className="w-full mx-auto px-4 sm:px-6 pb-10 py-10">
         <div className="text-center mb-16">
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-thin text-white mb-4 leading-tight">
-            India's Largest AI-Powered
+            Welcome To MRLLP
             <br />
-            Corporate Services & Compliance Platform
+           Business  & Compliance Solutions Platform
           </h1>
 
           {/* Gradient Border Line */}
           <div className="w-24 h-1 bg-gradient-to-r from-transparent via-cyan-500 to-transparent mx-auto mb-6"></div>
 
           <p className="text-sm sm:text-sm text-gray-300 max-w-3xl mx-auto mb-8 leading-relaxed">
-            Join millions of users who trust IndiaFillings to simplify and
-            automate their MCA, GST, and Income Tax compliance. Our AI-powered
-            platform with intelligent automation and expert professional support
-            - delivers end-to-end workflows, paperless filing, and secure cloud
-            storage. Start and operate a business with peace of mind.
+            MRLLP is a professional services platform that simplifies legal and
+            business processes for startups and entrepreneurs. We provide
+            seamless solutions for company registration, GST, Income Tax filing,
+            Trademark & IP protection, LLP formation, Section 8 companies, and
+            Udyam registration. Since 2011, we have empowered businesses across
+            India with transparent, efficient, and cost-effective services. Our
+            expert team guides clients step-by-step, ensuring smooth compliance
+            and allowing them to focus on growth.
           </p>
         </div>
 
@@ -185,14 +187,14 @@ function Hero() {
                   animation: marquee-mobile 25s linear infinite;
                   display: flex;
                   width: max-content;
-                  gap: 0.5rem;
+                  gap: 1.5rem;
                 }
 
                 .marquee-content-desktop {
                   animation: marquee-desktop 40s linear infinite;
                   display: flex;
                   width: max-content;
-                  gap: 1rem;
+                  gap: 2rem;
                 }
 
                 .marquee-content-mobile:hover,
@@ -249,17 +251,14 @@ function Hero() {
                   {[...clients, ...clients, ...clients].map((client, index) => (
                     <div
                       key={index}
-                      className="flex-shrink-0 h-14 flex items-center"
+                      className="flex-shrink-0 h-24 flex items-center"
                     >
-                      <div className="bg-slate-800/60 border border-slate-700 rounded-lg px-3 py-2 hover:border-cyan-500 transition hover:shadow-lg hover:shadow-cyan-500/20 flex items-center gap-2">
-                        <div className="w-5 h-5 bg-gradient-to-br from-slate-600 to-slate-700 rounded flex items-center justify-center flex-shrink-0">
-                          <span className="text-xs font-bold text-white">
-                            {client.charAt(0)}
-                          </span>
-                        </div>
-                        <span className="text-gray-300 font-medium whitespace-nowrap text-xs">
-                          {client}
-                        </span>
+                      <div className="hover:scale-110 transition duration-300 flex items-center justify-center">
+                        <img
+                          src={client.image}
+                          alt={client.name}
+                          className="h-14 object-contain filter saturate-75 hover:saturate-100 transition"
+                        />
                       </div>
                     </div>
                   ))}
@@ -272,17 +271,14 @@ function Hero() {
                   {[...clients, ...clients].map((client, index) => (
                     <div
                       key={index}
-                      className="flex-shrink-0 h-16 flex items-center"
+                      className="flex-shrink-0 h-28 flex items-center"
                     >
-                      <div className="bg-slate-800/60 border border-slate-700 rounded-lg px-6 py-3 hover:border-cyan-500 transition hover:shadow-lg hover:shadow-cyan-500/20 flex items-center gap-2">
-                        <div className="w-7 h-7 bg-gradient-to-br from-slate-600 to-slate-700 rounded flex items-center justify-center">
-                          <span className="text-xs font-bold text-white">
-                            {client.charAt(0)}
-                          </span>
-                        </div>
-                        <span className="text-gray-300 font-medium whitespace-nowrap text-sm">
-                          {client}
-                        </span>
+                      <div className="hover:scale-110 transition duration-300 flex items-center justify-center">
+                        <img
+                          src={client.image}
+                          alt={client.name}
+                          className="h-20 object-contain filter saturate-75 hover:saturate-100 transition"
+                        />
                       </div>
                     </div>
                   ))}

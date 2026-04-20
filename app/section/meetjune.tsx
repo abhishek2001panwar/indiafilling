@@ -1,5 +1,5 @@
-import React from 'react'
-import { ArrowRight, MessageCircle } from 'lucide-react'
+import React from "react";
+import { ArrowRight, MessageCircle } from "lucide-react";
 
 function Meetjune() {
   return (
@@ -9,15 +9,18 @@ function Meetjune() {
           {/* Left Content */}
           <div className="space-y-4 md:space-y-6">
             <div className="border-l-4 border-purple-500 pl-4 md:pl-6">
-              <h2 className="text-2xl md:text-4xl font-regular text-white mb-2">Meet June AI.</h2>
+              <h2 className="text-2xl md:text-4xl font-regular text-white mb-2">
+                Our Promise
+              </h2>
               <h3 className="text-lg md:text-2xl font-semibold text-purple-400 mb-4 md:mb-6">
-                Your AI Compliance Co-Pilot
+                THE VALUE OF Accounting In Your Company
               </h3>
               <p className="text-sm md:text-base text-gray-300 leading-relaxed mb-6 md:mb-8">
-                Connect your tools, configure intelligent Automate every part of your business -
-                from customer acquisition and onboarding to invoicing, tax compliance, and
-                payroll – all through one unified AI-powered platform. June AI connects your tools,
-                understands your workflows, and executes them intelligently.
+                Like any financial, personnel and managerial needs, Accounting
+                is very important for any organisation. It helps the
+                entrepreneur to make right decisions for current operations and
+                to make plans and strategies for future decisions.
+                Accounting in business is like a Liver in Body.
               </p>
             </div>
 
@@ -30,29 +33,30 @@ function Meetjune() {
 
           {/* Right Content - Chat Interface */}
           <div className="relative h-64 md:h-96">
-             
-
-              {/* Video Container */}
-                <video
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  className="w-full h-full object-cover rounded-lg"
-                >
-                  <source src="https://img.indiafilings.com/videos/june-ai.mp4" type="video/mp4" />
-                  {/* Fallback - placeholder gradient */}
-                  <div className="w-full h-full bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center rounded-lg">
-                    <div className="text-center">
-                      <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-purple-300 via-purple-400 to-pink-500 flex items-center justify-center border-4 border-purple-100 mx-auto mb-3 md:mb-4 shadow-lg">
-                        <MessageCircle className="w-6 h-6 md:w-8 md:h-8 text-white" />
-                      </div>
-                      <p className="text-white font-semibold text-sm md:text-base">Video Demo</p>
-                    </div>
+            {/* Video Container */}
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover rounded-lg"
+            >
+              <source
+                src="https://img.indiafilings.com/videos/june-ai.mp4"
+                type="video/mp4"
+              />
+              {/* Fallback - placeholder gradient */}
+              <div className="w-full h-full bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center rounded-lg">
+                <div className="text-center">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-purple-300 via-purple-400 to-pink-500 flex items-center justify-center border-4 border-purple-100 mx-auto mb-3 md:mb-4 shadow-lg">
+                    <MessageCircle className="w-6 h-6 md:w-8 md:h-8 text-white" />
                   </div>
-                </video>
-            
-            
+                  <p className="text-white font-semibold text-sm md:text-base">
+                    Video Demo
+                  </p>
+                </div>
+              </div>
+            </video>
 
             {/* Decorative glow */}
             <div className="absolute top-0 right-0 w-48 h-48 md:w-96 md:h-96 bg-gradient-to-br from-purple-600 via-pink-600 to-purple-600 rounded-full blur-3xl -z-10 opacity-20"></div>
@@ -60,7 +64,7 @@ function Meetjune() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Meetjune
+export default Meetjune;

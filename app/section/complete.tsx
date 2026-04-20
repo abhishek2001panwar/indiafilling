@@ -1,18 +1,17 @@
-import React from 'react'
-import { CheckCircle2 } from 'lucide-react'
+import React from "react";
+import { CheckCircle2 } from "lucide-react";
 
 function complete() {
   const features = [
-    'Company Registration',
-    'Bank Account Assistance',
-    'GST Registration',
-    'Trade License',
-    'GST Return Filing',
-    'TDS Return Filing',
-    'HR & Payroll Processing',
-    'Trademark Protection',
-    'MCA Compliance',
-  ]
+    "One Person Company",
+    "Income Tax",
+    "Startup Registration",
+    "GST Registration",
+    "Trademark Registration",
+    "Private Limited Company",
+    "Limited Liability Partnership",
+    "Udyam Registration",
+  ];
 
   return (
     <div className="bg-[#0F172A] py-10">
@@ -21,8 +20,8 @@ function complete() {
           {/* Left Side - Image */}
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl">
-              <img 
-                src="https://www.indiafilings.com/_next/image?url=https%3A%2F%2Fimg.indiafilings.com%2Fcatalog%2FIndiaFilings-App-1.webp&w=1080&q=75" 
+              <img
+                src="https://www.indiafilings.com/_next/image?url=https%3A%2F%2Fimg.indiafilings.com%2Fcatalog%2FIndiaFilings-App-1.webp&w=1080&q=75"
                 alt="Dashboard and Mobile App"
                 className="w-full h-full object-cover rounded-3xl"
               />
@@ -33,11 +32,11 @@ function complete() {
           <div className="space-y-8">
             <div>
               <h1 className="text-3xl lg:text-4xl font-regular text-white mb-4">
-                Complete compliance solution
+                Our Services
               </h1>
               <p className="text-gray-300 text-base leading-relaxed">
-                From company registration to GST filing, income tax returns to trademark protection — we
-                handle all your compliance needs in one place.
+                End-to-end business solutions designed to simplify compliance,
+                save time, and accelerate your growth.
               </p>
             </div>
 
@@ -54,7 +53,7 @@ function complete() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default complete
+export default complete;
