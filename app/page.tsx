@@ -18,8 +18,8 @@ function page() {
       <MeetJune />
       <Complete />
       <Marque />
-      <Start />
       <Story/>
+      <Start />
       <AIPowered />
       <FAQ />
       <Footer />

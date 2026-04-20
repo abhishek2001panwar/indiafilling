@@ -3,13 +3,13 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 
 function Story() {
   return (
-    <div className="bg-[#0F172A] py-20">
+    <div className="bg-[#0F172A] py-10">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center bg-gradient-to-r from-slate-800/50 to-slate-700/50 border border-slate-700 rounded-2xl p-8 lg:p-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center bg-[#262E47] border border-slate-700 rounded-2xl p-8 lg:p-6">
           {/* Left Content */}
           <div className="space-y-6">
             <div className="border-l-4 border-purple-500 pl-6">
-              <h2 className="text-4xl font-bold text-white mb-2">Our Story!</h2>
+              <h1 className="text-4xl font-regular text-white mb-2">Our Story!</h1>
               <h3 className="text-2xl font-semibold text-purple-400 mb-6">
                 IndiaFilings: The Journey
               </h3>
@@ -33,10 +33,7 @@ function Story() {
 
           {/* Right Content - Chat Interface */}
           <div className="relative">
-            <div className="bg-gradient-to-br from-black via-slate-900 to-black border border-purple-600/50 rounded-2xl p-8 space-y-6 bg-black">
-              <h3 className="text-2xl font-semibold text-white text-center">
-                Compliance, the smart way
-              </h3>
+             
 
               {/* Video Container */}
               <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl overflow-hidden shadow-lg min-h-64">
@@ -62,7 +59,7 @@ function Story() {
                   </div>
                 </video>
               </div>
-            </div>
+            
 
             {/* Decorative glow */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-purple-600 via-pink-600 to-purple-600 rounded-full blur-3xl -z-10 opacity-20"></div>

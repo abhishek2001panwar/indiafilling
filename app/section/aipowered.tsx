@@ -35,9 +35,9 @@ function aipowered() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Side - Content */}
           <div>
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
+            <h1 className="text-2xl lg:text-3xl font-regular text-white mb-6">
               AI-Powered India Compliance
-            </h2>
+            </h1>
             <p className="text-gray-300 text-base leading-relaxed mb-12">
               Stay compliant in India with automated help for GST filing, income tax returns, ROC
               compliance and annual filings. Our platform drafts forms, validates entries and keeps a clear

@@ -33,12 +33,12 @@ function start() {
   ]
 
   return (
-    <div className="bg-[#0F172A] py-20">
+    <div className="bg-[#0F172A] py-10">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Left Side */}
           <div>
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
+            <h2 className="text-2xl lg:text-3xl font-regular text-white mb-6">
               Start your business in India
             </h2>
             <p className="text-gray-300 text-base leading-relaxed mb-8">
@@ -63,7 +63,7 @@ function start() {
             {steps.map((step, index) => (
               <div
                 key={index}
-                className="bg-slate-800/50 border border-slate-700 rounded-lg p-6 hover:border-slate-600 transition"
+                className="bg-slate-800/50 border border-slate-700 rounded-lg p-4 hover:border-slate-600 transition"
               >
                 <div className="flex items-start gap-4">
                   <span className="text-slate-400 font-semibold text-lg">{step.number}</span>

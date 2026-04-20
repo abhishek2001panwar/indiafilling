@@ -10,7 +10,7 @@ function footer() {
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h3 className="text-white text-2xl font-bold mb-2">Ready to get started?</h3>
+            <h1 className="text-white text-2xl font-regular mb-2">Ready to get started?</h1>
             <p className="text-gray-300">
               Create an account to start your company registration or migrate your existing business. No-credit card required to explore.
             </p>

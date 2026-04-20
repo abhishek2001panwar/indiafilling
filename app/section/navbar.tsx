@@ -60,7 +60,7 @@ function navbar() {
             </button>
 
             {/* Login Button */}
-            <button className="bg-white hover:bg-gray-100 text-slate-900 font-semibold py-2 px-6 rounded-full transition">
+            <button className="bg-white hover:bg-gray-100 text-slate-900 font-regular py-2 px-5 rounded-full transition">
               Login
             </button>
           </div>

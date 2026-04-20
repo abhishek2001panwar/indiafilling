@@ -15,7 +15,7 @@ function complete() {
   ]
 
   return (
-    <div className="bg-[#0F172A] py-20">
+    <div className="bg-[#0F172A] py-10">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Side - Image */}
@@ -32,9 +32,9 @@ function complete() {
           {/* Right Side - Content */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
+              <h1 className="text-3xl lg:text-4xl font-regular text-white mb-4">
                 Complete compliance solution
-              </h2>
+              </h1>
               <p className="text-gray-300 text-base leading-relaxed">
                 From company registration to GST filing, income tax returns to trademark protection — we
                 handle all your compliance needs in one place.
