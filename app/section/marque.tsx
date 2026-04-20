@@ -32,7 +32,7 @@ function marque() {
         </div>
 
         {/* Marquee Container */}
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden marquee-fade">
           <style>{`
             @keyframes marquee {
               0% {
@@ -51,6 +51,31 @@ function marque() {
             
             .marquee-content:hover {
               animation-play-state: paused;
+            }
+
+            .marquee-fade {
+              position: relative;
+            }
+
+            .marquee-fade::before,
+            .marquee-fade::after {
+              content: '';
+              position: absolute;
+              top: 0;
+              width: 120px;
+              height: 100%;
+              z-index: 20;
+              pointer-events: none;
+            }
+
+            .marquee-fade::before {
+              left: 0;
+              background: linear-gradient(to right, rgba(15, 23, 42, 1) 0%, transparent 100%);
+            }
+
+            .marquee-fade::after {
+              right: 0;
+              background: linear-gradient(to left, rgba(15, 23, 42, 1) 0%, transparent 100%);
             }
           `}</style>
 
