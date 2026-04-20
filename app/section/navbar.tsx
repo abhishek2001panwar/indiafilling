@@ -4,7 +4,7 @@ import { ChevronDown, Search, Menu, X } from 'lucide-react'
 
 function navbar() {
   const [isOpen, setIsOpen] = useState(false)
-  const [openDropdown, setOpenDropdown] = useState(null)
+  const [openDropdown, setOpenDropdown] = useState<number | null>(null)
 
   const navItems = [
     {
